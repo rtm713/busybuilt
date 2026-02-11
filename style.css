@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+
+h1 {
+    color: #1C73D8;    
+}
+
+nav {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    padding: 10px;
+    align-items: center;
+}
+
+nav img {
+    width: auto;
+    height: 60px;
+    margin-left: 10%;
+}
+
+nav div {
+    display: flex;
+    width: 20%;
+    margin-right: 10%;
+    justify-content: space-around;
+    color: rgb(46, 46, 46);
+}
+
+nav div h2 {
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+}
