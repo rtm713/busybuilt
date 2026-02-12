@@ -46,7 +46,7 @@ nav div h2 {
 #homelineCont {
     text-align:center;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 3rem;
     max-width: 35%;
 }
 
@@ -56,15 +56,15 @@ nav div h2 {
     margin: 0;
 }
 
-#homelineCont p {
+#homelineCont div {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    margin: 20px 0 0 0;
+    font-weight: 500;
+    margin: 3rem 0 0 0;
 }
 
 #homelineCont button {
-    margin-top: 20px;
+    margin-top: 3rem;
     width: 15rem;
     height: 5rem;
     background-color: #1C73D8;
@@ -76,3 +76,21 @@ nav div h2 {
     cursor: pointer;
     color: white;
 }
+
+
+#threeIconCont {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+
+.iconCont {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
