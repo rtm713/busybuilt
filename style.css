@@ -1,15 +1,19 @@
 body {
     margin: 0;
-    background-color: rgb(243, 243, 243);
+    background:
+    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+    url("./images/pexels-anastasia-shuraeva-4944435.jpg");
+  background-size: cover;
+  background-position: center;
 }
-
-html, body {
-    height: 100%;
-}
-
 
 .blue {
-    color: #1C73D8;    
+    color: #1C73D8; 
+    /* text-shadow: 1px 1px 0px rgb(0, 0, 0);    */
+}
+
+.black {
+    /* text-shadow: 1px 1px 0px rgb(156, 156, 156); */
 }
 
 nav {
@@ -47,13 +51,15 @@ nav div h2 {
     text-align:center;
     margin: auto;
     margin-top: 3rem;
-    max-width: 35%;
+    max-width: 750px;
+    width: 90%;
 }
 
 #homelineCont h3 {
     font-size: 52px;
     font-family: "Archivo Black", sans-serif;
     margin: 0;
+    white-space: nowrap;
 }
 
 #homelineCont div {
@@ -77,20 +83,41 @@ nav div h2 {
     color: white;
 }
 
-
 #threeIconCont {
     display: flex;
     width: 80%;
-    margin: auto;
-    margin-top: 5rem;
+    margin: 5rem auto 4rem auto;
     justify-content: space-around;
 }
 
-
 .iconCont {
-    border: 1px solid black;
-    border-radius: 5px;
+
     width: 30%;
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+border: none;
+border-radius: 16px;
 }
+
+.iconCont h4 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 20px;
+}
+
+.iconCont svg {
+    margin: 5px 0 20px 0;
+}
+
+.iconCont p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    margin: 5px auto 25px auto ;
+}
+
+
+
 
