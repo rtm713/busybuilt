@@ -3,17 +3,13 @@ body {
     background:
     linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
     url("./images/pexels-anastasia-shuraeva-4944435.jpg");
-  background-size: cover;
-  background-position: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 .blue {
-    color: #1C73D8; 
-    /* text-shadow: 1px 1px 0px rgb(0, 0, 0);    */
-}
-
-.black {
-    /* text-shadow: 1px 1px 0px rgb(156, 156, 156); */
+    color: #1C73D8;
 }
 
 nav {
@@ -27,9 +23,12 @@ nav {
     font-family: 'Raleway', sans-serif;
 }
 
-nav img {
+nav a img {
     width: auto;
     height: 60px;
+}
+
+nav a {
     margin-left: 10%;
 }
 
@@ -91,13 +90,12 @@ nav div h2 {
 }
 
 .iconCont {
-
     width: 30%;
     text-align: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-border: none;
-border-radius: 16px;
+    border: none;
+    border-radius: 16px;
 }
 
 .iconCont h4 {
@@ -118,6 +116,14 @@ border-radius: 16px;
     margin: 5px auto 25px auto ;
 }
 
-
+#emailCard {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 16px;
+}
 
 
