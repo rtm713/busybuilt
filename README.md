@@ -2,7 +2,17 @@ BUSYBUILT
 
 
 
-NOTES:
+    CORE PLAN - MAIN BUSYBUILT PLAN
+        CREATE PAGE FOR THIS PLAN
+
+
+
+
+
+
+
+
+
 
     possible alternate intro line -- 
         Not everyone is training for a stage or magazine cover. Most of us just want to feel stronger, look better, and stay healthy — without turning fitness into a second job.
@@ -27,3 +37,26 @@ resources:
 
     https://www.svgrepo.com/collection/soco-st-various-illustration-vectors/1   --- SVG LOGOS
 
+
+
+
+FUTURE: 
+     
+     PLANS- 
+        BusyBuilt CORE
+             The main strength program.
+
+        BusyBuilt Office
+            Desk-friendly workouts.
+
+        BusyBuilt Bodyweight
+            No equipment training.
+
+        BusyBuilt Express
+            10–15 minute workouts.
+
+        BusyBuilt Strength
+            More advanced lifting.
+
+        BusyBuilt Mobility
+            Flexibility + injury prevention.

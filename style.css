@@ -4,7 +4,8 @@ body {
     linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
     url("./images/pexels-anastasia-shuraeva-4944435.jpg");
     background-size: cover;
-    background-position: center;
+    background-position:center;
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
